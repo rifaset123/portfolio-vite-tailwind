@@ -89,7 +89,7 @@ function Tech() {
                   alt=""
                 />
                 <img
-                  src="/src/public/laravel.png"
+                  src="https://github.com/rifaset123/portfolio-vite-tailwind/blob/main/src/public/laravel.png?raw=true"
                   className="h-24 object-contain rounded-full p-3 m-3 shadow-lg shadow-red-500 bg-white "
                   alt=""
                 />
@@ -138,7 +138,7 @@ function Tech() {
                   alt=""
                 />
                 <img
-                  src="/src/public/firebase.png"
+                  src="https://github.com/rifaset123/portfolio-vite-tailwind/blob/main/src/public/firebase.png?raw=true"
                   className="h-24 object-contain rounded-full p-3 m-3 shadow-lg shadow-yellow-400 bg-white "
                   alt=""
                 />

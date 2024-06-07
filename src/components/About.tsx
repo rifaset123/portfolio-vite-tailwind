@@ -2,6 +2,7 @@ import { useEffect } from "react";
 import { about } from "../data/about";
 import Aos from "aos";
 
+
 export default function About() {
   useEffect(() => {
     Aos.init();

@@ -3,6 +3,9 @@ import { Dialog, DialogPanel } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import { useEffect, useState } from "react";
 
+// image purpose
+import signature from "../public/signature.png"
+
 export default function Nav() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
@@ -22,8 +25,8 @@ export default function Nav() {
               <a href="#" className="-m-1.5 p-1.5">
                 <img
                   className="h-10 w-auto"
-                  src="/src/public/signature.png"
-                  alt=""
+                  src={signature}
+                  alt="signature"
                 />
               </a>
             </div>
@@ -70,7 +73,7 @@ export default function Nav() {
                 <a href="#" className="-m-1.5 p-1.5">
                   <img
                     className="h-8 w-auto"
-                    src="/src/public/signature.png"
+                    src={signature}
                     alt=""
                   />
                 </a>

@@ -5,7 +5,7 @@ export const about = [
     href: "#",
     description:
       "Despite studying software engineering, I can also do various things like video editing with premiere pro, motion graphic with after effect, photo manipulation with photoshop",
-    imageUrl: "/src/public/editing.jpg",
+    imageUrl: "https://github.com/rifaset123/portfolio-vite-tailwind/blob/main/src/public/editing.jpg?raw=true",
     images: {
       name: "Michael Foster",
       role: "Co-Founder / CTO",
@@ -18,7 +18,7 @@ export const about = [
           src: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Adobe_Photoshop_CC_icon.svg/640px-Adobe_Photoshop_CC_icon.svg.png",
         },
         {
-          src: "/src/public/ae.png",
+          src: "https://upload.wikimedia.org/wikipedia/commons/c/cb/Adobe_After_Effects_CC_icon.svg",
         },
       ],
     },
@@ -29,7 +29,7 @@ export const about = [
     href: "#",
     description:
       "I'm also a versatile designer proficient in Figma and Adobe Illustrator, with a knack for creating captivating visuals and user interfaces. Beyond 2D design, I also dabble in 3D modeling using Blender, bringing ideas to life with creativity and precision.",
-    imageUrl: "/src/public/art.jpg",
+    imageUrl: "https://github.com/rifaset123/portfolio-vite-tailwind/blob/main/src/public/art.jpg?raw=true",
     images: {
       name: "Michael Foster",
       role: "Co-Founder / CTO",
@@ -53,7 +53,7 @@ export const about = [
     href: "#",
     description:
       "I really like games with a good story in them. With that background, I've been developing my skills in Unity and Godot with passion for creating immersive gameplay experiences.",
-    imageUrl: "/src/public/game.png",
+    imageUrl: "https://github.com/rifaset123/portfolio-vite-tailwind/blob/main/src/public/game.png?raw=true",
     images: {
       name: "Michael Foster",
       role: "Co-Founder / CTO",

@@ -6,6 +6,9 @@ import { useEffect } from "react";
 import Aos from "aos";
 import { TypeAnimation } from "react-type-animation";
 import { SiGoogledocs } from "react-icons/si";
+import profile from "../public/profile_frame.png"
+import bubble_front from "../public/bubble_front.png"
+import bubble_back from "../public/bubble_back.png"
 
 function Hero() {
   useEffect(() => {
@@ -74,7 +77,7 @@ function Hero() {
             className="tilt-background z-0 absolute"
           >
             <img
-              src="/src/public/bubble_front.png"
+              src={bubble_front}
               alt="background"
               className="background-image"
             />
@@ -91,7 +94,7 @@ function Hero() {
               className="tilt-background -z-10 absolute"
             >
               <img
-                src="/src/public/bubble_back.png"
+                src={bubble_back}
                 alt="background"
                 className="background-image"
               />
@@ -102,7 +105,7 @@ function Hero() {
         <div className="grid grid-cols-1 md:grid-cols-2 my-20 z-10">
           <div className="flex-1 flex justify-center md:justify-end items-center mb-10 md:mb-0">
             <img
-              src="/src/public/profile_frame.png"
+              src={profile}
               alt="img_profile"
               className=" max-w-md xl:max-w-xl h-96 md:h-auto object-cover"
             />
