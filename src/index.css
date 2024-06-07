@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.tilt-background {
+  pointer-events: unset;
+}
+html {
+  scroll-behavior: smooth;
+}
