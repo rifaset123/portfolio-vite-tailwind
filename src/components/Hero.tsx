@@ -5,7 +5,7 @@ import Tilt from "react-parallax-tilt";
 import { useEffect } from "react";
 import Aos from "aos";
 import { TypeAnimation } from "react-type-animation";
-import { SiGoogledocs } from "react-icons/si";
+// import { SiGoogledocs } from "react-icons/si";
 import profile from "../public/profile_frame.png"
 import bubble_front from "../public/bubble_front.png"
 import bubble_back from "../public/bubble_back.png"
@@ -191,13 +191,13 @@ function Hero() {
                   >
                     <FaTiktok size={30} />
                   </IconButton>
-                  <IconButton
+                  {/* <IconButton
                     text="CV"
                     color="bg-blue-500"
                     link="https://docs.google.com/document/d/1dzcGAcLfqxAG2dAM03LKdoEDUit-Ig5WvlcXMJmAdyA/edit?usp=sharing"
                   >
                     <SiGoogledocs size={30} />
-                  </IconButton>
+                  </IconButton> */}
                 </div>
               </div>
             </div>
